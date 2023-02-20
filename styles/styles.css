@@ -2,10 +2,34 @@
     font-family: 'Roboto', sans-serif;
 }
 
-.first-section {
-    background-color: #1F2937;
+body {
+    margin: 0;
+    height: 100vh;
 }
 
+.first-section {
+    background-color: #1F2937;
+    padding: 0 64px;
+    padding-bottom: 64px;
+}
+
+.hero-section {
+    display: flex;
+    margin-top: 64px;
+    text-align: left;
+    justify-content: space-around;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header-links {
+    display: flex;
+    gap: 16px;
+}
 
 .logo-text {
     font-size: 24px;
@@ -17,6 +41,10 @@
     color: #E5E7EB;
 }
 
+.hero-text {
+    width: 400px;
+}
+
 h1 {
     font-size: 48px;
     color: #F9FAF8;
@@ -24,6 +52,8 @@ h1 {
 }
 
 .hero-description {
+    margin-top: -32px;
+    margin-bottom: 8px;
     color: #F9FAF8;
 }
 
