@@ -150,3 +150,40 @@ h1 {
     text-align: right;
     margin: 0 32px 0 0;
 }
+
+/*///////////////////////////////////////////////////////// FOURTH SECTION  /////////////////////////////////////////////////////////*/
+
+.fourth-section {
+    display: flex;
+    justify-content: center;
+    padding: 100px 225px;
+}
+
+.call-container {
+    background-color: #3882F6;
+    padding: 16px 0px;
+    width: 100%;
+    border-radius: 8px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.call-title {
+    font-size: 18px;
+    color: white;
+}
+
+.call-text {
+    color: #E5E7EB;
+}
+
+.call-btn {
+    border: 2px solid white;
+    background-color: #3882F6;
+    color: white;
+    padding: 8px 20px;
+    border-radius: 8px;
+    font-weight: bold;
+    font-size: 16px;
+}
