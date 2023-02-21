@@ -172,10 +172,12 @@ h1 {
 .call-title {
     font-size: 18px;
     color: white;
+    margin-bottom: 0;
 }
 
 .call-text {
     color: #E5E7EB;
+    margin-top: 0;
 }
 
 .call-btn {
@@ -186,4 +188,18 @@ h1 {
     border-radius: 8px;
     font-weight: bold;
     font-size: 16px;
+}
+
+.call-btn:hover {
+    background-color: white;
+    color: #3882F6;
+}
+
+/*///////////////////////////////////////////////////////// FOOTER SECTION  /////////////////////////////////////////////////////////*/
+
+.footer {
+    background-color: #1F2937;
+    color: white;
+    text-align: center;
+    padding: 24px 0;
 }
